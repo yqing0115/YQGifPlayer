@@ -26,7 +26,7 @@
     
     [self.view addSubview:titleLab];
 
-    //
+    //方法一
     {
         NSString *path = [[NSBundle mainBundle] pathForResource:@"YQ" ofType:@"gif"];
         YQGifView *gifView = [[YQGifView alloc] initWithFrame:CGRectMake(20, 100, 150, 100) filePath:path];
@@ -42,8 +42,7 @@
         lab.textAlignment = NSTextAlignmentCenter;
         [self.view addSubview:lab];
     }
-    //
-    if (1)
+    //方法2
     {
         NSString *path = [[NSBundle mainBundle] pathForResource:@"YQ" ofType:@"gif"];
         NSData *data = [NSData dataWithContentsOfFile:path];
