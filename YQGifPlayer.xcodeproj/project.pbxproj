@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D65A3F4212BC27C00E7F362 /* YQ.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4D65A3F3212BC27C00E7F362 /* YQ.gif */; };
 		4D7690DC212AB70000CF2245 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7690DB212AB70000CF2245 /* AppDelegate.m */; };
 		4D7690DF212AB70000CF2245 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7690DE212AB70000CF2245 /* ViewController.m */; };
 		4D7690E2212AB70000CF2245 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D7690E0212AB70000CF2245 /* Main.storyboard */; };
 		4D7690E4212AB70200CF2245 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D7690E3212AB70200CF2245 /* Assets.xcassets */; };
 		4D7690E7212AB70200CF2245 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D7690E5212AB70200CF2245 /* LaunchScreen.storyboard */; };
 		4D7690EA212AB70200CF2245 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7690E9212AB70200CF2245 /* main.m */; };
+		4D7690F3212AB7C600CF2245 /* YQGifView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7690F2212AB7C600CF2245 /* YQGifView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D65A3F3212BC27C00E7F362 /* YQ.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = YQ.gif; sourceTree = "<group>"; };
 		4D7690D7212AB70000CF2245 /* YQGifPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YQGifPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D7690DA212AB70000CF2245 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4D7690DB212AB70000CF2245 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +29,8 @@
 		4D7690E6212AB70200CF2245 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D7690E8212AB70200CF2245 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D7690E9212AB70200CF2245 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4D7690F1212AB7C600CF2245 /* YQGifView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQGifView.h; sourceTree = "<group>"; };
+		4D7690F2212AB7C600CF2245 /* YQGifView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQGifView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,15 +63,26 @@
 		4D7690D9212AB70000CF2245 /* YQGifPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				4D7690F0212AB72F00CF2245 /* YQGifPlayer */,
 				4D7690DA212AB70000CF2245 /* AppDelegate.h */,
 				4D7690DB212AB70000CF2245 /* AppDelegate.m */,
 				4D7690DD212AB70000CF2245 /* ViewController.h */,
 				4D7690DE212AB70000CF2245 /* ViewController.m */,
 				4D7690E0212AB70000CF2245 /* Main.storyboard */,
+				4D65A3F3212BC27C00E7F362 /* YQ.gif */,
 				4D7690E3212AB70200CF2245 /* Assets.xcassets */,
 				4D7690E5212AB70200CF2245 /* LaunchScreen.storyboard */,
 				4D7690E8212AB70200CF2245 /* Info.plist */,
 				4D7690E9212AB70200CF2245 /* main.m */,
+			);
+			path = YQGifPlayer;
+			sourceTree = "<group>";
+		};
+		4D7690F0212AB72F00CF2245 /* YQGifPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				4D7690F1212AB7C600CF2245 /* YQGifView.h */,
+				4D7690F2212AB7C600CF2245 /* YQGifView.m */,
 			);
 			path = YQGifPlayer;
 			sourceTree = "<group>";
@@ -128,6 +144,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D65A3F4212BC27C00E7F362 /* YQ.gif in Resources */,
 				4D7690E7212AB70200CF2245 /* LaunchScreen.storyboard in Resources */,
 				4D7690E4212AB70200CF2245 /* Assets.xcassets in Resources */,
 				4D7690E2212AB70000CF2245 /* Main.storyboard in Resources */,
@@ -142,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D7690DF212AB70000CF2245 /* ViewController.m in Sources */,
+				4D7690F3212AB7C600CF2245 /* YQGifView.m in Sources */,
 				4D7690EA212AB70200CF2245 /* main.m in Sources */,
 				4D7690DC212AB70000CF2245 /* AppDelegate.m in Sources */,
 			);
